@@ -62,7 +62,7 @@ const BoxModel = () => {
                   borderRadius: `${border.radius * 1.2}px`
                 }}
               >
-                <div className="absolute text-xs text-blue-300 top-2 left-2">Margin</div>
+                {/* <div className="absolute text-xs text-blue-300 top-1 left-2">Margin</div> */}
                 <div 
                   id="border-area" 
                   className="bg-red-900 bg-opacity-20 flex justify-center items-center"
@@ -73,7 +73,7 @@ const BoxModel = () => {
                     borderRadius: `${border.radius}px`
                   }}
                 >
-                  <div className="absolute text-xs text-red-300 top-2 left-2">Border</div>
+                  {/* <div className="absolute text-xs text-red-300 top-2 left-2">Border</div> */}
                   <div 
                     id="padding-area" 
                     className="bg-green-900 bg-opacity-20 flex justify-center items-center"
@@ -85,7 +85,7 @@ const BoxModel = () => {
                       borderRadius: `${border.radius * 0.8}px`
                     }}
                   >
-                    <div className="absolute text-xs text-green-300 top-2 left-2">Padding</div>
+                    {/* <div className="absolute text-xs text-green-300 top-3 left-2">Padding</div> */}
                     <div 
                       id="content-area" 
                       className="bg-gray-700 flex justify-center items-center"

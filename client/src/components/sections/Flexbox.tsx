@@ -5,7 +5,7 @@ const Flexbox = () => {
   const [justifyContent, setJustifyContent] = useState("flex-start");
   const [alignItems, setAlignItems] = useState("stretch");
   const [flexWrap, setFlexWrap] = useState("nowrap");
-  const [items, setItems] = useState([1, 2, 3, 4, 5]);
+  const [items, setItems] = useState([1, 2, 3, 4]);
 
   const addFlexItem = () => {
     setItems([...items, items.length + 1]);

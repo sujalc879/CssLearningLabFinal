@@ -55,7 +55,7 @@ const Positioning = () => {
               <div className="bg-gray-700 w-full h-full flex flex-col p-3">
                 <div className="text-xs text-gray-400 mb-2">Parent Container</div>
                 <div 
-                  className="w-32 h-32 bg-accent rounded-md flex items-center justify-center text-white shadow-lg"
+                  className="w-32 h-32 bg-accent rounded-md flex items-center justify-center text-white shadow-lg p-4"
                   style={{
                     position: positionType as any,
                     top: positionType !== 'static' ? `${offsets.top}px` : undefined,
